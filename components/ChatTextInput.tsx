@@ -91,7 +91,7 @@ export default function ChatInput() {
       }}
       radius="sm"
       size="md"
-      onKeyDown={handleKeyDown}
+      onKeyPress={handleKeyDown}
       onKeyUp={(e) => e.stopPropagation()}
       onChange={handleChange}
       value={value}
